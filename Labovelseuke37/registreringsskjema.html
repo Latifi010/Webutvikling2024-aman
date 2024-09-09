@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="nb">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Kontakt Oss</title>
+    </head>
+    <body>
+        <header>
+            <a href="nettsidemal.html"><h1>Kontakt oss</h1></a>
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="/Labovelseuke37/registreringsskjema.html">Hjem</a>
+                        </li>
+                        <li>
+                            <a href="validert.html" target="_blank">Validering</a>
+                        </li>
+                        <li>
+                            <a href="nettsidemal.html">Nettside mal</a>
+                        </li>
+                        <li>
+                            <a href="contact.html">Kontakt Oss</a>
+                        </li>
+                    </ul>
+                </nav>
+        </header>
+        <main>
+            <section>
+                <h2>Kontakt skjema</h2>
+                <form action="post">
+                    <label for="name">Name:</label>
+                    <input type="text" name="Name" placeholder="Ola nordmann" id="name" minlength="2" pattern="[A-Za-zæøåÆØÅ ]{2,}" required>  
+                    
+                    <label>
+                        Epost:
+                        <input type="email" name="email" placeholder="Aman@gmail.com" required>
+                    </label>
+
+                    <label>
+                        Passord:
+                        <input type="password" minlength="8" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required>
+                    </label>
+
+                    <label>
+                        Alder:
+                        <input type="number" min="18" max="99" required>
+                    </label>
+
+                    <label>
+                        Telefonnummer:
+                        <input type="tel" pattern="[0-9]{8,12}" required>
+                    </label>
+
+                    <label>
+                        <input type="date" max="2024-09-09" required>
+                    </label>
+
+                    <label>
+                        Mann:
+                        <input type="radio" name="valg" required>
+                    </label>
+
+                    <label>
+                        Kvinne:
+                        <input type="radio" name="valg" required>
+                    </label>
+
+                    <label>
+                        Annet:
+                        <input type="radio" name="valg" required>
+                    </label>
+
+                    <label>
+                        Land:
+                        <select required>
+                            <option value="">Velg et land</option>
+                            <option value="Norge">Norge</option>
+                            <option value="Danmark">Danmark</option>
+                            <option value="Sverige">Sverige</option>
+                        </select>
+                    </label>
+
+                    <label>
+                        Personvern
+                        <input type="checkbox" required>
+                    </label>
+                    <input type="submit" value="Send skjema">
+                </form>
+            </section>
+        </main>
+        <footer>
+            <p>Aman</p>
+            <p>Aman@gmail.com</p>
+        </footer>
+    </body>
+</html>
