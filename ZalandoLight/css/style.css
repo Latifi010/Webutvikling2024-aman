@@ -1,24 +1,28 @@
-*{
-    box-sizing: border-box;
+html {
+    font-size: 18px;
+}
+
+* {
+    box-sizing: border-box; 
 }
 
 body{
     font-family:Arial, Helvetica, sans-serif;
 }
 
-img{
+img {
     width: 100%;
-    max-width: 250%;
+    max-width: 400px;
 }
 
-#main-logo{
+#main-logo {
     width: 100%;
     max-width: 250px; 
     display: block;
     margin: 0px auto;
 }
 
-.flex menu {
+.flex-menu {
     display: flex;
     list-style: none;
     gap: 1rem;
@@ -28,8 +32,8 @@ img{
 }
 
 .flex-menu a {
-    color: #000;
     text-decoration: none;
+    color: #000;
 }
 
 .flex-space-b{
@@ -37,6 +41,10 @@ img{
     justify-content: space-between;
     flex-wrap: wrap;
     gap: 1rem;
+}
+
+.flex-space-b h2 {
+    width: 100%;
 }
 
 .flex-space-b form{
@@ -50,4 +58,13 @@ img{
 
 #outlet{
     color: #ff0000;
+}
+
+.product-card {
+    max-width: 350px;
+    min-width: 200px;
+    width: 100%;
+    box-shadow: 13px 9px 20px 0px #efefef;
+    border-radius: 4px;
+    padding: 1rem;
 }
