@@ -1,5 +1,5 @@
 html {
-    font-size: 18px;
+    font-size: calc(1em + 1vw);
 }
 
 * {
@@ -9,6 +9,12 @@ html {
 body {
     font-family:Arial, Helvetica, sans-serif;
 }
+
+h1 {font-size: 2rem;}
+h2 {font-size: 1.8rem;}
+h3 {font-size: 1.6rem;}
+h4 {font-size: 1.4rem;}
+p,a { font-size: 1rem;}
 
 #grid-container {
     display: grid;
@@ -137,6 +143,8 @@ img {
     #menu{
         display: flex !important;
     }
+    h3{font-size: 1.2rem;}
+    p, a {font-size: 0.6urem;}
 }
 /*Mobil*/
 @media only screen and (max-width:800px){
