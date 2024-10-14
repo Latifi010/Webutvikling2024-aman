@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Header Styles */
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center items in the header */
+    padding: 20px;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap; 
+    flex-direction: column; /* Default to vertical layout on mobile */
+    align-items: center;
+    width: 100%;
+    background-color: aliceblue;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 10px;
+    color: #333;
+}
+
+#section1 {
+    margin-top: 1rem;
+    background-color:bisque
+}
+
+#container{
+    align-items: center;
+    text-align: center;
+}
+
+#tjenester{
+    margin-top: 1rem;
+    align-items: center;
+    text-align: center;
+}
+
+#nr1{
+    background-color: aqua;
+    margin-top: 2rem;
+}
+#nr2 {
+    background-color: aqua;
+    margin-top: 2rem;
+}
+#nr3{
+    background-color: aqua;
+    margin-top: 2rem;
+}
+#nr4{
+    background-color: aqua;
+    margin-top: 2rem;
+}   
+
+header{
+    /* Center logo and navigation */
+    text-align: center;
+}
+nav ul {
+    display: flex;
+    flex-direction: column; /* Vertical on mobile */
+}
+
+footer section {
+    margin-bottom: 20px; /* Add space between footer sections */
+}
+
+main {
+    display: flex;
+    flex-direction: column; /* Default to vertical layout */
+    padding: 20px;
+}
+
+    
