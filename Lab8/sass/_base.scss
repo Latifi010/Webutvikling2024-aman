@@ -1,0 +1,27 @@
+@use 'variables.scss' as *;
+@use "mixins.scss" as *;
+
+header{
+    @include flex-center;
+    .logo{
+        width: 100px;
+    }
+}
+
+body{
+    font-family: $font-body;
+    color: $color-body;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: $font-heading;
+    color: $font-heading;
+}
+
+.btn{
+    display: inline-block;
+    padding: 1rem;
+    background-color: rgb(50, 50, 50); 
+    text-decoration: none;
+    color: #fff;    
+}

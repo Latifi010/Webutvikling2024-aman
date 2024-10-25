@@ -1,8 +1,20 @@
-@use 'base.scss';
-@use 'mixins.scss';
-@use 'variables.scss';
+@use 'base.scss' as *;
+@use 'mixins.scss' as *;
+@use 'variables.scss' as *; 
 
-body{
-    background-color: aqua;
-    height: 100vh;
+nav{
+    position: fixed;
+    bottom: 0;
+    width: calc(100% - 30px); // Er dette riktig måte å gjøre det på ?
+    background-color:$color-primary;
+    border-radius: 20px;
+    margin: 0 15px 15px 15px; //- Ble ikke lik avstand på begge sider??
+    
+
+    ul{
+        @include flex-center;
+        list-style: none;
+        padding: 8px 0;;
+        gap: 50px;
+    }
 }

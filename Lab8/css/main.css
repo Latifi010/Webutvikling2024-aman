@@ -1,4 +1,43 @@
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header .logo {
+  width: 100px;
+}
+
 body {
-  background-color: aqua;
-  height: 100vh;
+  font-family: "Open Sans", sans-serif;
+  color: #7f8c8d;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Arial Black", sans-serif;
+  color: "Arial Black", sans-serif;
+}
+
+.btn {
+  display: inline-block;
+  padding: 1rem;
+  background-color: rgb(50, 50, 50);
+  text-decoration: none;
+  color: #fff;
+}
+
+nav {
+  position: fixed;
+  bottom: 0;
+  width: calc(100% - 30px);
+  background-color: #0092f3;
+  border-radius: 20px;
+  margin: 0 15px 15px 15px;
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  padding: 8px 0;
+  gap: 50px;
 }/*# sourceMappingURL=main.css.map */
