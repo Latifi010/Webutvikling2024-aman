@@ -85,6 +85,7 @@ main{
 
 .left-content-container.flex-items img{
     flex-basis: 31%;
+    width: 31%;
 }
 
 #active-img{
